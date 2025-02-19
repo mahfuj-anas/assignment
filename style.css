@@ -1,0 +1,11 @@
+
+
+.top-bar{
+    display: flex;
+        gap: 20px;}
+   
+.img{
+    display: flex;
+    justify-content: right;
+}
+    
