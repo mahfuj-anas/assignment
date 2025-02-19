@@ -2,10 +2,44 @@
 
 .top-bar{
     display: flex;
-        gap: 20px;}
-   
-.img{
-    display: flex;
-    justify-content: right;
+        gap: 20px;
+        padding: 20px 30px;
+        background-color: azure;
+        align-items: center;
+    }
+   .top-bar h6{
+    margin: 0;
+    font-size: 15px;
+   }
+.top-bar button{
+    background-color: white;
+    border: none;
+    padding: 5px 10 px;
+   margin-left: 5px;
+   cursor: pointer;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+
 }
+.left-button{
+    margin-right: auto;
     
+}
+.right-buttons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+}
+.top-bar .right-buttons button: last-child {
+    border-right: 2px solid grey;
+}
+
+
+
+.icon{
+   display: flex;
+   margin-left: auto;
+   gap: 30px;
+}
